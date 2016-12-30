@@ -1,0 +1,296 @@
+html {
+  max-width: 640px;
+  margin: 0 auto;
+  background: #EFEFF4;
+}
+.bg-white {
+  background: white;
+}
+.box {
+  display: -webkit-box;
+}
+.notice-box {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 2% 5%;
+  background-color: #fff;
+  display: -webkit-box;
+}
+.notice-name {
+  padding: 0 5% 0 7%;
+  background-size: 0.8rem;
+  color: #e43931;
+  border-right: 1px solid #e5e5e5;
+  background-position: 0;
+  background-repeat: no-repeat;
+}
+.notice-link {
+  color: #333;
+  font-size: 14px;
+  margin-left: 2%;
+  padding-right: 2%;
+  -webkit-box-flex: 1;
+}
+.notice-link a {
+  display: block;
+  width: 100%;
+  /*对宽度的定义,根据情况修改*/
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.mui-table-view-cell {
+  padding: 0.6rem 1rem;
+}
+#list {
+  -webkit-box-flex: 1;
+}
+.mui-table-view .mui-indexed-list-item a {
+  overflow: hidden;
+  line-height: 2.5rem;
+}
+.mui-table-view .mui-indexed-list-item a .game-icon {
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+.weui_cell {
+  padding: 13px 15px;
+}
+.weui_cells {
+  font-size: inherit;
+}
+.login-box {
+  padding: 13px 15px;
+}
+#sliderSegmentedControl {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.list-content {
+  padding-top: 40px;
+}
+.list-content .no-data {
+  margin: 5rem 0;
+}
+.list-content .no-data img {
+  width: 50%;
+}
+.choose-name {
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.weui_cells_title {
+  margin: .77rem 0px;
+}
+.submit-f {
+  width: 100%;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  line-height: 50px;
+  color: white;
+  font-size: 16px;
+}
+.submit-f div {
+  height: 100%;
+}
+.submit-f .left {
+  width: 70%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.submit-f .left .total {
+  margin-left: 10px;
+}
+.submit-f .left .discount {
+  font-size: 13px;
+  color: #666;
+  margin-left: 10px;
+}
+.submit-f .right {
+  text-align: center;
+  width: 30%;
+  background: #e43931;
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #EFEFF4;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.block {
+  display: block;
+  color: black;
+}
+.money-game-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
+  margin-right: 0.5rem;
+}
+.cm-padding {
+  padding: 10px 13px;
+}
+.cm-mgt {
+  margin-top: 1.17647059em;
+}
+p {
+  font-size: 16px;
+  margin: 0;
+}
+.weui-picker-overlay,
+.weui-picker-container {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.my-index-header .user-info {
+  font-size: 1rem;
+  border-bottom: 1px solid #EFEFF4;
+}
+.my-index-header .user-info img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+}
+.my-index-header .user-extra {
+  padding: 13px 15px;
+}
+.my-index-header .user-extra img {
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-right: .6rem;
+}
+.my-index-header .user-extra a {
+  color: black;
+  width: 50%;
+  box-sizing: border-box;
+}
+.my-index-header .user-extra a p {
+  color: #ccc;
+}
+.my-index-header .user-extra a .detail {
+  padding: .2rem 0 0;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.my-index-header .user-extra a .detail img {
+  height: 100%;
+}
+.my-index-header .user-extra a:first-child {
+  border-right: 1px solid #EFEFF4;
+}
+.red {
+  color: #FF3D31;
+}
+.my-money-header {
+  background: #FF6D31;
+  color: white;
+  height: 8rem;
+}
+.my-money-header .title {
+  margin-bottom: 1rem;
+  color: white;
+}
+.my-money-header .digital {
+  font-size: 2rem;
+  color: white;
+}
+.mgt0 {
+  margin-top: 0;
+}
+.charge-user-name {
+  font-size: 1.3rem;
+}
+.gray {
+  color: #ccc;
+}
+.chrage-panel-wrap ul {
+  font-size: 0;
+  margin-top: 10px;
+}
+.chrage-panel-wrap ul li {
+  font-size: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  width: 30%;
+  margin: 1.5%;
+  padding: 3% 0;
+  border-radius: .5rem;
+}
+.chrage-panel-wrap ul li.on {
+  border-color: #FF3D31;
+  color: #FF3D31;
+}
+.weui_cells_title {
+  margin: .3rem 0;
+}
+.order-ul {
+  padding-bottom: 50px;
+}
+.order-ul li {
+  margin: .5rem 0;
+}
+.order-ul li .li-body {
+  background-image: url(../img/arrow.png);
+  background-position: 95% center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  color: #333;
+}
+.order-ul li .li-body img {
+  height: 2.5rem;
+}
+.order-ul li .li-body .li-info {
+  margin-left: 1rem;
+}
+.bg-gray {
+  background-color: #FAFAFA !important;
+}
+.order-info-box li {
+  margin: .3rem 0;
+}
+.green {
+  color: #2AC28B;
+}
+.order-code {
+  margin-top: 0.4rem;
+}
+.order-code p {
+  font-size: 12px;
+}
+.lv {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+}
+.msg-list p {
+  font-size: 13px;
+}
+.money-detail {
+  font-size: 12px;
+}
+.money-detail p {
+  font-size: 12px;
+}
+.mui-indexed-list {
+  border: none;
+}
+.mui-bar {
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
